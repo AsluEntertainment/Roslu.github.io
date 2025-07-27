@@ -17,8 +17,9 @@ header {
 
 .nav-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 100px;
+   overflow-x: auto;
 }
 
 .nav-links a {
