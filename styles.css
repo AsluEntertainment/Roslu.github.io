@@ -130,6 +130,20 @@ main {
 }
 
 
+@media (max-width: 600px) {
+  .navbar {
+    padding: 5px 10px; /* Menos padding vertical */
+  }
+
+  .nav-links {
+    gap: 4px 10px; /* Menos espacio entre filas y columnas */
+  }
+
+  .nav-links a {
+    padding: 5px 8px; /* Menos espacio interno */
+    font-size: 14px;
+  }
+}
 
 
 
