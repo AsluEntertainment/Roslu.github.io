@@ -154,25 +154,29 @@ main {
 
 
 footer {
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-align: center;
-  background-color: #f0f0f0; /* opcional */
+  background-color: #f0f0f0;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.4;
+  max-height: 100px; /* Límite de altura */
+  overflow: hidden;  /* Esconde si excede */
 }
 
 .footer-content {
-  max-width: 100%;
   margin: 0 auto;
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 @media (max-width: 600px) {
   footer {
     padding: 5px 10px;
     font-size: 12px;
+    line-height: 1.2;
+    max-height: 80px; /* Menor en móviles */
   }
 }
-
 
 
 
