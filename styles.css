@@ -160,6 +160,10 @@ main {
   flex: 1;
 }
 
+/* Evita desbordamiento horizontal */
+body {
+  overflow-x: hidden;
+}
 
 
 
