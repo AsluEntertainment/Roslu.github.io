@@ -154,32 +154,23 @@ main {
 
 
 footer {
-  background: #FFF;
-  padding: 3px 0;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #f0f0f0; /* opcional */
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .footer-content {
-  text-align: center;
-  color: #000;
-  font-size: 12px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.social-media {
-  margin-top: 10px;
-}
-
-.social-media a {
-  margin: 0 10px;
-  transition: transform 0.3s ease;
-}
-
-.social-media a:hover {
-  transform: scale(1.1);
-}
-
-.social-media img {
-  width: 24px;
-  height: 24px;
+@media (max-width: 600px) {
+  footer {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
 }
 
 
